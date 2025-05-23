@@ -36,7 +36,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
     ports:
       - 8888:8080
-    restart: $(RESTART}
+    restart: ${RESTART}
     devices:
       - /dev/net/tun
     cap_add:
